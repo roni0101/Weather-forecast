@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wather forecast</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script src="https://use.fontawesome.com/a7afa8c2fe.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="main-container">
+
+	<div class="search-bar">
+		<div class="background"></div>
+		<div class="foreground"></div>
+		<div class="content">
+			<h2>Weather forecast <i class="fa fa-sun-o"></i></h2>				
+			<p>Get weather forecast for every city around the world</p>
+			<input class="form-control" id="inpCityName" placeholder="City name">
+			<button class="btn btn-info" id="btnGetWeather">Get weather</button>			
+		</div>
+	</div>
+
+	<div class="weather-forecast">
+		<header>
+			<h2 id="city-name"></h2>
+		</header>
+		<div class="search-results">
+			<div class="row"></div>
+		</div>
+	</div>
+	
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
