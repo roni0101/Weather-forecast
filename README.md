@@ -1,3 +1,3 @@
 # Weather-forecast
 
-Link to website roni.website/weather-forecast/
+Link to website http://roni.website/weather-forecast/
